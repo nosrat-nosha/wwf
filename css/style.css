@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #AAAAAA ;
+    overflow-x:hidden;
+    
+}
+body p{
+font-size:20px; 
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    
+  
+    }
+.nav-item{
+        font-size:18.4px;
+        padding-right:1.4rem;
+    }
+
+
+.navbar.scrolled {
+    background:#000000;;
+    transition: background 500ms;
+    box-shadow:2px 2px 5px #3292a6;
+}
+
+.nav-link.active{
+    color:#3292a6;
+}
+.nav-link:hover{
+    color:#3292a6;
+}
+.mainNavbar-subpage{
+    background: #000000;
+    box-shadow:2px 2px 5px #3292a6;
+}
+
+
+#showcase{
+
+font-family: 'Montserrat', sans-serif;
+}
+#showcase .carousel-item{
+    height:800px;
+    
+}
+.carousel-image-1{
+    background: url(../img/slider-img/image1.jpg);
+    background-size:cover; 
+    
+}
+.carousel-image-2{
+    background: url(../img/slider-img/image2.jpg);
+    background-size:cover; 
+    
+}
+.carousel-image-3{
+    background: url(../img/slider-img/image3.jpg);
+    background-size:cover; 
+} 
+.mainSlider-heading{
+    font-family: 'Staatliches', cursive;
+}
+.mainSlider-paragraph{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size:25px;
+}
+
+
+.dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8)
+}
+
+#home-heading{
+    position: relative;
+    min-height: 250px;
+    background: url(../img/background-img/bg-img1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align:center;
+    color:#fff;
+}
+.slogan_first{
+    padding-top:78px;
+}
+ .icon-content:hover{
+    background: #3292a6;
+    color:#fff;
+}
+#video-play{
+    position: relative;
+    min-height: 250px;
+    background: url(../img/background-img/bg-img2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    text-align:center;
+    color:#fff;
+}
+#video-play a{
+    color:#fff;
+}
+.slogan_second{
+    padding-top:82px;
+}
+#slide-with-content {
+    margin-top:50px;
+}
+.fab1{
+    padding:72px 0;
+}
+.fab2{
+    padding:72px 0;
+}
+.fab3{
+    padding:81px 0;
+}
+.fab4{
+    padding:72px 0;
+    
+}
+.fab5{
+    padding:80px 0;
+    
+}
+.fab6{
+    padding:88px 0;
+    
+}
+.fab7{
+    padding:81px 0;
+    
+    
+}
+.fab8{
+    padding:89px 0;
+    
+}
+.fab9{
+    padding:80px 0;
+    
+}
+.card-text:hover{
+    background: #8D54A2;
+    color:#fff;
+}
+
+.card-logo:hover{
+    background: #E44D26;
+    color:#fff;
+    
+}
+
+.home-section{
+    background: #262323;
+}
+.sign_up{
+    
+    min-height: 600px;
+}
+.fas_icon{
+    color:#008ed6;
+    background: #fff;
+    padding:5px;
+    border-radius: 5px;
+}
+.mainFooter{
+    background: #000000;
+}
+.logo-itgeeks{
+    width:325px;
+    height: 200px;
+}
+
+.copyright-text{
+    padding-top:25px;
+    padding-left:50px;
+}
+.contacts_section{
+    
+}
+.itgeeks_section{
+   
+}
+.facebook_hover{
+    color:#fff;;
+}
+.youtube_hover{
+    color:#fff;;
+}
+.twitter_hover{
+    color:#fff;;
+}
+.instagram_hover{
+    color:#fff;;
+}
+
+.facebook_hover:hover{
+    color:#3B5999;
+}
+.youtube_hover:hover{
+    color:#FF0000;
+}
+.twitter_hover:hover{
+    color:#1DA1F2;
+}
+.instagram_hover:hover{
+    color:#7B36B3;
+}
+.member-section h1{
+    font-family: 'Anton', sans-serif;
+}
+.member-section h3{
+    font-family: 'Anton', sans-serif;
+}
+.member-section p{
+    font-size:25px;
+}
+
+.members-img:hover{
+   background: #3292A6;
+   color:#fff;
+   
+}
+
+.members-img{
+    border-radius: 15px;
+    margin-top:150px;
+}
+ .members-img img{
+    width:307px;
+    height:309px;
+    margin-top:-120px;
+    
+    
+}
+.members_list {
+    margin-top: 0px;
+}
+.fab-members{
+    color:#343a40;
+    
+}
+.fab-members:hover{
+    color:#fff;
+    
+}
+.members-row{
+    padding-top:145px;
+}
+.members-heading{
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+.accordion {
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.schedule-header{
+    font-family: 'Anton', sans-serif;
+}
+.photo-gallery-bg img{
+    
+
+}
+.slider-img img{
+    width: auto;;
+    height: 580px;
+    
+    
+}
+.slider-gallery{
+    
+    margin-top:-320px ;
+}
+.gallery-img img{
+    width:720px;
+    height: 210px;
+}
+
+.contact_section{
+    margin-top: 150px;
+}
+.form__submit_btn {
+    margin:0 314px;;
+}
+
+.shadow-for{
+    box-shadow:3px 3px 6px 3px #000000;
+}
+
+.header_custom{
+    font-family: 'Anton', sans-serif;
+}
+
+.signinSection h1{
+    font-family: 'Anton', sans-serif;
+}
+.signinSection img{
+margin:0 auto;
+
+}
+.nav-link{
+    font-size: 18px;
+}
+
+.rules h1 {
+    font-family: 'Anton', sans-serif;
+}
+ .rules p{
+     font-size: 20px;
+ }
+ .rules li{
+     font-size: 20px;
+ }
+
+.signinSection{
+    background-image: linear-gradient(to right, #0a44af, #003d95, #03367b, #0c2e62, #122649);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .contacts_section{
+        margin-left:0;
+    }
+    .itgeeks_section{
+        margin-left:0px;
+    }
+    #showcase .carousel-item{
+        height:301px;
+        background-size: 500px 300px;
+        background-repeat: no-repeat;
+        
+    }
+    #footer_text{
+        text-align:center;
+    }
+    .slogan_first{
+        padding-top:15px;
+    }
+
+    .slogan_second{
+        padding-top:20px;
+    }
+    
+    .members-img{
+        padding:100px 0;
+    }
+    .gallery-img img{
+        width:720px;
+        height: 250px;
+    }
+    .slider-gallery{
+    
+        margin-top:-80px ;
+    }
+    .slider-gallery img{
+    
+         width: auto;
+         height: 250px;;
+    }
+    .copyright-text{
+        
+    }
+    .form__submit_btn {
+        margin:0 218px;;
+    }
+
+    .members-img{
+       margin-top:100px;
+    }
+  .members-row{
+    margin-top:-153px;
+}
+#Singnin{
+    margin-top: 50px;
+}
+   .navbar-brand  h3{
+       font-size:28.4px;
+   }
+}
